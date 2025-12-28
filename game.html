@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Year Fireworks Game 🎆</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <h1>🎉 Happy New Year 2026 🎉</h1>
+  <p class="description">
+  🎆 Click the fireworks as fast as you can to earn points! <br>
+  You have 30 seconds — score as high as possible before time runs out. 🎉
+    </p>
+
+
+  <div class="info">
+    <span>Score: <b id="score">0</b></span>
+    <span>Time: <b id="time">30</b>s</span>
+  </div>
+
+  <div id="gameArea"></div>
+
+  <button id="startBtn">Start Game</button>
+
+  <div class="reward-bar">
+  <p id="rewardText">
+    🔒 Score <b>10 points</b> to unlock and choose a gift 🎁
+  </p>
+
+  <div class="gifts">
+    <div class="gift locked"><img src="plushie.avif" alt=""></div>
+    <div class="gift locked"><img src="hotwheels.avif" alt=""></div>
+    <div class="gift locked"><img src="chcco.avif" alt=""></div>
+  </div>
+</div>
+
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+  Your browser does not support audio.
+  </audio>
+  <script src="script2.js"></script>
+</body>
+</html>
